@@ -1,0 +1,23 @@
+{
+  "_id": "user_a9e5-4b3f-b88a-3e2c", // Usando user_id como PK para persistencia
+  "usuario_id": "a9e5-4b3f-b88a-3e2c",
+  "ultima_actualizacion": "2025-10-28T17:45:00Z",
+  "cupon_code": "WELCOMETEN",
+  "subtotal": 125.98,
+  "items": [
+    {
+      "variant_id": 90123, // FK al SQL product_variants.id
+      "sku": "TSHIRT-RED-L",
+      "nombre": "Camiseta Cuello V Roja",
+      "cantidad": 2,
+      "precio_unitario": 20.00
+    },
+    {
+      "variant_id": 90456,
+      "sku": "JEANS-BLUE-32",
+      "nombre": "Jeans Slim Fit Azul",
+      "cantidad": 1,
+      "precio_unitario": 85.98
+    }
+  ]
+}
