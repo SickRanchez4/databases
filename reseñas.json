@@ -1,0 +1,14 @@
+{
+  "_id": "xxx",
+  "producto_id": 4321, // FK al SQL products.id
+  "usuario_id": "zz-xx", // FK al SQL users.id
+  "puntuacion": 5,
+  "comentario": "Lorem Ipsum. ¡Lorem lorem ipsum!",
+  "fecha_creacion": "2025-01-01T10:00:00Z",
+  "metadata_ajuste": {
+    "talla_comprada": "M",
+    "altura_cm": 175,
+    "ajuste_percibido": "Fiel a la talla",
+    "largo_manga_ok": true
+  }
+}
